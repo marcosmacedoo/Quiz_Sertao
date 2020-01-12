@@ -19,7 +19,7 @@ class Cliente():
             data_convertida_bytes = bytes(data, 'utf-8')
             self.cliente_socket.send(data_convertida_bytes)
         except socket.error as e:
-            print('Erro na transferencia de dados')
+            #print('Erro na transferencia de dados')
             str(e)
 
     def fecha_conexao(self):

@@ -3,7 +3,7 @@ from _thread import *
 import time
 
 ENDERECO = '0.0.0.0'
-PORTA = 6000
+PORTA = 8000
 
 
 class Servidor():
