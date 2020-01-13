@@ -29,3 +29,8 @@ python3 Main.py
 ```
 
 - E por fim, divirta-se!
+
+## Desenvolvedores
+
+- Marcos Vinícius Macedo de Menezes
+- Luis Henrique Rocha Bueno
