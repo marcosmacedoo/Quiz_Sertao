@@ -34,3 +34,8 @@ python3 Main.py
 
 - Marcos Vinícius Macedo de Menezes
 - Luis Henrique Rocha Bueno
+
+## Youtube
+
+- [Gameplay](https://www.youtube.com/watch?v=VSNRnjNBUeE)
+- [Código](https://youtu.be/NFAohoD1PV0)
