@@ -11,8 +11,8 @@ t = Tela()
 q = Questao()
 pygame.init()
 
-pygame.mixer.music.load('trilha.mp3')
-pygame.mixer.music.play()
+#pygame.mixer.music.load('trilha.mp3')
+#pygame.mixer.music.play()
 
 while True:
 
