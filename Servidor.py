@@ -56,6 +56,9 @@ class Servidor():
             dados_cliente = cliente_socket.recv(1024)
             dados_decodificados = dados_cliente.decode('utf-8').split('-')
 
+            if not dados_cliente:
+                break
+
             player = {'nome': dados_decodificados[1], 'pontuacao': int(
                 dados_decodificados[2])}
 
@@ -63,7 +66,6 @@ class Servidor():
                 self.adiciona_cliente(player)
             elif dados_decodificados[0] == '0':
                 self.remove_cliente(player)
-                break
             elif dados_decodificados[0] == '2':
                 self.atualiza_pontuacao(player)
             elif dados_decodificados[0] == '3':
